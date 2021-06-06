@@ -1,0 +1,98 @@
+.menu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 5px;
+    border-radius: 0.5em;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+  }
+  
+  html{
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+  }
+  
+.listaMeni >  li {
+    float: left;
+  }
+  
+.listaMeni > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.listaMeni >  li a:hover {
+    background-color: rgb(236, 8, 8);
+  }
+
+
+body{
+    background-image: linear-gradient(#b4c8dd, #d5e0ea);
+    
+}
+
+.aktivnosti{
+    display: grid;
+    grid-template-columns: 23% auto auto auto 23%;
+    align-content: center;
+    grid-gap: 20px;
+    color: #6c8baf;
+    
+}
+
+.prethodna, .sljedeca, .trenutna{
+    width: 86%;
+    text-align: center;
+    border-color: #6c8baf;
+
+}
+
+.prethodna{
+    grid-column: 2 / 3;
+    height: 190px;
+    margin-top: 30px;
+    border-radius: 2.5em;
+    text-align: center;
+
+}
+.trenutna{
+    grid-column: 3 / 4;
+    height: 220px;
+    border-radius: 1em;
+}
+.sljedeca{
+    grid-column: 4 / 5;
+    height: 190px;
+    margin-top: 30px;
+    border-radius: 2.5em;
+}
+
+.naslov{
+    font-size: 20px;
+}
+.info{
+    font-size: 10px;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .prethodna{
+        display: none;
+    }
+    .aktivnosti{
+        display: table-row;
+    }
+}

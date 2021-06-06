@@ -1,0 +1,4 @@
+Naziv,tip,pocetak,kraj,dan
+WT,predavanje,9,12,srijeda
+OOI,predavanje,9,12,subota
+rg,predavanje,9,12,cet

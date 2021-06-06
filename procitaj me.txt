@@ -1,0 +1,3 @@
+U rutama se sve unosi u tabelu kao lowercase, 
+tako da sve pretrage budu case insensitive.
+Zbog toga sve tabele baze treba inicijalizirati na ovaj nacin.
